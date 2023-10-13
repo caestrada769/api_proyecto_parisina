@@ -9,5 +9,5 @@ app.use(bodyParser.json());
 // Conectar las rutas
 app.use('/api', userRoutes);
 app.use('/api', productionRoutes);
-
+app.use('/api', pedidoRoutes);
 module.exports = app;
